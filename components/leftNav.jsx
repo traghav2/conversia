@@ -10,7 +10,7 @@ import { MdPhotoCamera, MdAddAPhoto } from 'react-icons/md'
 const LeftNav = () => {
 
     const { currentUser, signOut } = useAuth();
-    const [editProfile, setEditProfile] = useState(true);
+    const [editProfile, setEditProfile] = useState(false);
 
     const editProfileContainer = () => {
         return (
