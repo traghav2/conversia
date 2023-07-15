@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import React from 'react'
-import Image from 'react-image';
 
 const Avatar = ({ size, user, onClick }) => {
 
